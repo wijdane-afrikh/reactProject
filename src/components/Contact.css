@@ -1,0 +1,38 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 70vh;
+    align-items: center;
+}
+.Contact-form{
+    display: flex;
+    flex-direction: column;  
+}
+.Contact-form h1{
+    font-size: 35px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    letter-spacing: -1px;
+}
+.Contact-form input{
+    min-width: 380px;
+    padding: 20px 0;
+    padding-left: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.966);
+    border-radius:2px;
+    font-size: 18px;
+}
+.submit{
+    cursor: pointer;
+    padding: 17px 30px;
+    margin-top: 10px;
+    background: #990033;
+    border: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 3px;
+    font-weight: bold;
+}
